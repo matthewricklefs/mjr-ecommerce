@@ -10,16 +10,17 @@ import {
 } from "@material-ui/core";
 import { ShoppingCart } from "@material-ui/icons";
 import logo from "../../assets/commerce.png";
-import classes from "*.module.css";
+import useStyles from "./styles";
 
 const Navbar = () => {
+  const classes = useStyles();
   return (
     <>
       <AppBar position="fixed" className={classes.AppBar} color="inherit">
         <Toolbar>
           <Typography variant="h6" className={classes.title} color="inherit">
             <img
-              src={}
+              src={logo}
               alt="Commerce.js"
               height="25px"
               className={classes.image}
