@@ -9,7 +9,7 @@ const Cart = ({
   cart,
   handleUpdateCartQty,
   handleRemoveFromCart,
-  handleEmptyCart,
+  handleEmptyCart
 }) => {
   const classes = useStyles();
 
