@@ -17,7 +17,7 @@ const FormInput = ({ name, label }) => {
         required
       />
     </Grid>
-  );
+  )
 };
 
 export default FormInput;
